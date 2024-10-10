@@ -26,6 +26,7 @@ else (no)
 :put away;
 endif 
 :end;
+:end;
 
 stop
 @enduml
