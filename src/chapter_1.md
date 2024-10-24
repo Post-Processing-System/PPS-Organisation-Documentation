@@ -8,3 +8,4 @@ This chapter is about the process of the project.
 
 [1.3 Components and interfaces](./Components_and_interfaces.md)
 
+[1.4 Git](./Git.md)
