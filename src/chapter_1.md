@@ -1,7 +1,8 @@
 # Chapter 1
 
-[1.1 project process](./Project_Process.md)
-
+This chapter is about the process of the project.
+[1.1 Project process](./Project_Process.md)
+[1.1 System process](./System_Process.md)
 
 ```plantuml
 @startuml Functional diagram
