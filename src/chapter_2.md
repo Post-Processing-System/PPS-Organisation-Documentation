@@ -1,4 +1,4 @@
-# Risk assestment 
+# Risk assesment 
 
 ```plantuml
 
