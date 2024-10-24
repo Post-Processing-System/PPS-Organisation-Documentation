@@ -26,8 +26,7 @@ else (no)
 :put away;
 endif 
 :end;
-:end;
-#René 
+
 stop
 @enduml
 
