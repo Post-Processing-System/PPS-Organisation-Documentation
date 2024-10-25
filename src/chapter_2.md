@@ -1,8 +1,8 @@
-# Risk assestment 
+# Risk assesment 
 
 ```plantuml
 
-@startuml 
+@startuml 1
 
 ' analyse for cartesian robot 
 start
@@ -18,7 +18,7 @@ stop
 
 @enduml
 
-@startuml
+@startuml 2
 
 ' Analyse for clamping system 
 
@@ -37,7 +37,7 @@ stop
 @enduml
 
 
-@startuml
+@startuml 3
 
 ' Flowchart voor gevaren van gereedschap
 
