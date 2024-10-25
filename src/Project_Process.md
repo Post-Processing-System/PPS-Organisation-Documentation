@@ -7,7 +7,7 @@ This chapter describe the process of the project. That mean how the project will
 @startuml Process diagram
 
 start
-
+:start martijn;
 :Start;
 :Get to know eachother;
 :Dive in to the assignment;
