@@ -11,11 +11,11 @@ title Git Workflow Overview
 RECTANGLE(GitHubOrganization) {
     :Organization created;
     :Members added;
-    :All members made owners;
+    :Members become owners;
 }
 
 RECTANGLE(GitRepo) {
-    :Git repo created in the organization;
+    :Git repository created in the organization;
 }
 
 RECTANGLE(Members) {
