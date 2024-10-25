@@ -1,33 +1,11 @@
-# Chapter 1
+# Process
 
+This chapter is about the process of the project.
 
-```plantuml
-@startuml Functional diagram
+[2.1 Project process](./Project_Process.md)
 
-start
+[2.2 System process](./System_Process.md)
 
-:Start;
-repeat
-repeat while (gear present?) is (no) not (yes)
-repeat
-repeat while (start pressed?) is (no) not (yes)
-:start transport;
-repeat
-:clamp;
-:check clamp;
-repeat while (gear clamped?) is (no) not (yes)
-:deburring;
-:cleaning;
-:check quality;
-:defix;
-if (quality ok?) then (yes)
-:transport to end pos;
-else (no)
-:put away;
-endif 
-:end;
-:end;
-#René 
-stop
-@enduml
+[2.3 Components and interfaces](./Components_and_interfaces.md)
 
+[2.4 Git](./Git.md)
