@@ -7,6 +7,7 @@
 start
 
 :Start;
+:Star sebas;
 repeat
 repeat while (gear present?) is (no) not (yes)
 repeat
