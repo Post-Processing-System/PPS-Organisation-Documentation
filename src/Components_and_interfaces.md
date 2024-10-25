@@ -18,11 +18,10 @@ package "Base Frame" {
 }
 
 package "Industrial PC" {
-    [Define dimensions] as pcDimensions
-    [Create travel path] as pcPath
+    [Gear measurement] as pcDimensions
+    [Travel path creator] as pcPath
     [Force measurements] as pcForce
 }
-
 
 opPut --> vision : "1.Scans gear"
 vision --> pcDimensions : "2.Send dimensions"
