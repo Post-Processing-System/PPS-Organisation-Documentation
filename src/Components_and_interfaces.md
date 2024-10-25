@@ -20,11 +20,11 @@ package "Base Frame" {
 package "Industrial PC" {
     [Gear measurement] as pcDimensions
     [Travel path creator] as pcPath
-    [Force measurements] as pcForce
+    [Force measurement] as pcForce
 }
 
-opPut --> vision : "1.Scans gear"
-vision --> pcDimensions : "2.Send dimensions"
+opPut --> robot : "Place gear in/on the robot"
+vision --> pcDimensions : "Send image"
 pcDimensions --> pcPath : "Create path"
 pcPath --> robot : "Deburr on path"
 robot --> tool : "Start tool"
