@@ -6,21 +6,21 @@ This chapter describes the different components and how they are related to each
 
 @startuml
 package "Operator" {
-    [Operator puts gear into machine] as opPut
+    [Input machine] as opPut
     [Quality control] as opQuality
-    [Operator gets gear out of machine] as opGet
+    [Output of machine] as opGet
 }
 
 package "Base Frame" {
     [Cartesian robot] as robot
     [Tool] as tool
-    [Vision system scans gear] as vision
+    [Vision system] as vision
 }
 
 package "Industrial PC" {
     [Define dimensions] as pcDimensions
     [Create travel path] as pcPath
-    [Measure used force on tool] as pcForce
+    [Force measurements] as pcForce
 }
 
 
