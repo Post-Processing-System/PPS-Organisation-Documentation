@@ -31,4 +31,16 @@ repeat
 :Verify cleaning quality with vision system;
 repeat while (Satisfactory cleaning?) is (no)
 ->yes;
+    :Report a manual inspection;
+    :Operator performs inspection;
+    
+    if (Operator accepts cleaning?) then (Yes)
+        :Confirm gear ready;
+    else (No)
+        :Adjust parameters as required by the operator;
+        :Repeat cleaning process;
+  
+endif
+
+stop
 @enduml
