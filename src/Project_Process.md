@@ -33,4 +33,5 @@ fork again
 :Test system;
 endfork
 :Write down results and recommendations;
+@enduml
 
