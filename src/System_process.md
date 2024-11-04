@@ -2,30 +2,45 @@
 
 
 ```plantuml
-@startuml Functional diagram
+@startuml
+title Burr cleaning process in a cartesian robot
 
 start
 
-:Start;
+:Gear preparation;
+
+if (Manual or automatic placement?) then (Manual)
+    :Operator places the gear;
+else (Automatic)
 repeat
-repeat while (gear present?) is (no) not (yes)
+    :Conveyor position gear;
+
+ :Check gear position; 
+repeat while (Gear in position?) is (no)
+->yes;
+endif
+
+:Start clamping system;
+
 repeat
-repeat while (start pressed?) is (no) not (yes)
-:start transport;
-repeat
-:clamp;
-:check clamp;
-repeat while (gear clamped?) is (no) not (yes)
-:deburring;
-:cleaning;
-:check quality;
-:defix;
-if (quality ok?) then (yes)
-:transport to end pos;
-else (no)
-:put away;
-endif 
-:end;
+:Acquire gear parameters through vision;
+:Save data in database;
+:Send initial parameters to the controller;
+:Configure cleaning parameters;
+:Start burr cleaning process;
+:Verify cleaning quality with vision system;
+repeat while (Satisfactory cleaning?) is (no)
+->yes;
+    :Report a manual inspection;
+    :Operator performs inspection;
+    
+    if (Operator accepts cleaning?) then (Yes)
+        :Confirm gear ready;
+    else (No)
+        :Adjust parameters as required by the operator;
+        :Repeat cleaning process;
+  
+endif
 
 stop
 @enduml
