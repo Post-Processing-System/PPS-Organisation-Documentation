@@ -9,5 +9,4 @@
 - [Safety](./chapter_2.md)
   - [Risk assesment](./Risk_assesment.md)
   - [Performance level](./Performance_level.md)
-- [Vision camera](./Vision_camera.md)
 - [Chapter 3](./chapter_3.md)
