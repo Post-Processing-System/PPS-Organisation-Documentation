@@ -4,7 +4,7 @@ This chapter describes the different components and how they are related to each
 
 ```plantuml
 
-@startuml
+@startuml 1
 package "Operator" {
     [Operator puts gear into machine] as opPut
     [Quality control] as opQuality
@@ -35,6 +35,5 @@ pcForce --> opQuality : "Send data"
 opQuality --> opGet : "Operator gets gear"
 
 @enduml
-
 
 
