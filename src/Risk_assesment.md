@@ -1,7 +1,5 @@
 #Risk Assesment
 
-
-
 ```plantuml
 
 @startuml 1
@@ -71,28 +69,3 @@ stop
 
 
 
-@startuml 
-title Risicoanalyse
-
-package "Risico's" {
-    [Mechanische Verwondingen] 
-    note right: Waarschijnlijkheid: 3 (mogelijk)\nErnst: 4 (ernstig)\nRisicoscore: 12\nBeheersmaatregelen: Veiligheidsbescherming, training.
-
-    [Inademingsgevaar] 
-    note right: Waarschijnlijkheid: 2 (weinig waarschijnlijk)\nErnst: 3 (matig)\nRisicoscore: 6\nBeheersmaatregelen: Stofafzuiging, ademhalingsmaskers.
-
-    [Geluidsoverlast] 
-    note right: Waarschijnlijkheid: 3 (mogelijk)\nErnst: 2 (licht)\nRisicoscore: 6\nBeheersmaatregelen: Geluidsisolatie, gehoorbescherming.
-
-    [Ongevallen met de robot] 
-    note right: Waarschijnlijkheid: 2 (weinig waarschijnlijk)\nErnst: 4 (ernstig)\nRisicoscore: 8\nBeheersmaatregelen: Afschermingen, veiligheidsinstructies.
-
-    [Elektrocutie of brand] 
-    note right: Waarschijnlijkheid: 1 (zeer onwaarschijnlijk)\nErnst: 5 (catastrofaal)\nRisicoscore: 5\nBeheersmaatregelen: Regelmatige inspecties van elektrische systemen.
-
-    [Ergonomische risico's] 
-    note right: Waarschijnlijkheid: 2 (weinig waarschijnlijk)\nErnst: 3 (matig)\nRisicoscore: 6\nBeheersmaatregelen: Ergonomische werkplekinrichting.
-
-}
-
-@enduml
