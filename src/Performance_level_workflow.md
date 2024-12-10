@@ -1,6 +1,5 @@
 # Performance Level
 
-(Hermannes)
 
   **1. Introduction**
 

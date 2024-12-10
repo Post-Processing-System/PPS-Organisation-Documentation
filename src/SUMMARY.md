@@ -9,7 +9,7 @@
 - [Safety](./chapter_2.md)
   - [Risk assesment](./Risk_assesment.md)
   - [Performance level workflow](./Performance_level_workflow.md)
-- [Evaluation & Progress](./8.%20Evaluation_progress.md.md)
+- [Evaluation & Progress](./8.%20Evaluation_progress.md)
 
 
 
